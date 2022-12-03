@@ -1,0 +1,187 @@
+footer.footer {
+    text-align: center;
+}
+
+.footer a{ 
+    display: inline-block;
+    font-size: 70px;            
+    padding: 50px;
+    text-decoration: none;
+}
+
+.icon {
+    display: inline-block;
+    font-size: 70px;            
+    padding: 50px;
+}
+
+nav.top-nav{
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px grey;
+    padding-bottom: 10px;
+
+}
+
+body{
+    margin-top: 100px;
+}
+
+nav [aria-current=page]{
+    color: orange;
+    border-bottom: .1em solid grey;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 2em;
+}
+
+nav.top-nav li{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+    margin-right: 75px;
+    float: right;
+    
+}
+
+nav.top-nav h1{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    user-select: none;
+}
+
+
+nav.top-nav li:hover{
+    color: red;
+    border-bottom: .1em solid grey;
+}
+
+nav.top-nav ul{
+    list-style: none;
+}
+
+.project-wrapper {
+    float: left;
+    width: 45%;
+	margin: 2.5%;
+	padding-top: 1%;
+	padding-bottom: 2.5%;
+    height: 200px;
+}
+.project-image {
+	width: 45%;
+    height: 100%;
+    float: left;
+    margin-right: 5%;
+}
+
+.project-title {
+    font-family: sans-serif;
+    color: orange;
+    padding-top: 0%;
+    margin-top: 0%;
+	font-size: 18px;
+}
+
+.project-description {
+    font-family: sans-serif;
+	font-size: 16px;
+    padding-bottom: 10px;
+
+}
+
+.head-bar h1{
+	font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.learn-more {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    transition: 0.1s linear;
+}
+
+.learn-more:hover { 
+    background-color: red;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+.learn-more-project {
+    width:22%;
+    margin: auto;
+    display: block;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    transition: 0.1s linear;
+}
+
+.learn-more-project:hover { 
+    background-color: red;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+
+nav.top-nav a, a:hover, a:visited, a:active{ text-decoration: none;
+    color: inherit;}
+a, a:hover, a:visited, a:active{ text-decoration: none;
+        color: inherit;}
+
+.about-me-wrapper {
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.image-wrapper{
+    float: left;
+    width: 50%;
+}
+
+.profile-image { 
+    margin: auto;
+    display: block;
+    height: 300px;
+
+    object-fit: contain;
+}
+
+.about-me-text {
+    font-family: sans-serif;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 25px;
+}
+
+.project-text {
+    font-family: sans-serif;
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
